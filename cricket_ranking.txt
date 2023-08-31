@@ -1,0 +1,35 @@
+cricket ranking react app
+
+
+Show ranking of each team in table form
+
+Win/loss percentage
+
+randomly takes a number and update winner and loss for team also update ranking+rating
+
+win	loss	rating
+
+you need to define array of object 
+
+[
+	aus{win: 1, loss: 0, rating: 5, ranking: 1},
+	ind{win: 1, loss: 0, rating: 5, ranking: 1},
+	eng{win: 1, loss: 0, rating: 5, ranking: 1},
+	pak{win: 1, loss: 0, rating: 5, ranking: 1}
+]
+
+
+each team can play atmost 2 matches
+
+aus vs ind
+eng vs aus
+eng vs ind
+
+pak vs aus
+ind vs pak
+eng vs pak
+
+
+To play the game
+	generate 1 random number
+	place a condition on it
